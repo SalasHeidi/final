@@ -1,16 +1,16 @@
-@server = https://didactic-bassoon-9v44x74pqxph7x9-8080.app.github.dev
+@server = https://opulent-eureka-qjrgqxvgxqgfx7v9-8080.app.github.dev
 ###
-GET {{server}}/api/alumnos 
+GET {{server}}/api/empleados 
 ###
-POST {{server}}/api/alumnos
+POST {{server}}/api/empleados
 Content-Type: application/json
 
-{"nombre": "Juan", "apellido": "Melendez", "codigo": "SM65789632"}
+{"nombre": "Juan", "correo": "ju@gml.p"}
 
 ###
-GET {{server}}/api/cursos 
+GET {{server}}/api/proyectos 
 ###
-POST {{server}}/api/cursos
+POST {{server}}/api/proyectos
 Content-Type: application/json
 
-{"nombre": "Ingenieria de procesos", "creditos": "5"}
+{"nombre": "Desarrollo de planos", "descripcion": "desarrollo de planos para una planta baja"}
